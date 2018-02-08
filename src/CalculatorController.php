@@ -31,22 +31,26 @@ class CalculatorController extends Controller{
 
     public function add($a, $b){
         $result = $a + $b;
+	return $result;
         return view('calculator::result', compact('result'));
     }
 
     public function subtract($a, $b){
         $result = $a - $b;
+	return $result;
         return view('calculator::result', compact('result'));
     }
 
     public function multiply($a, $b){
         $result = $a * $b;
+	return $result;
         return view('calculator::result', compact('result'));
     }
 
     public function divide($a, $b){
         try{
             $result = $a / $b;
+		return $result;
         }catch(\Exception $e){
             echo "<h1>Error</h1>";
             echo $e->getMessage(); exit;
@@ -57,6 +61,7 @@ class CalculatorController extends Controller{
     public function root($a){
         try{
             $result = pow($a, 1/$a);
+	    return $result;
         }catch(\Exception $e){
             echo "<h1>Error</h1>";
             echo $e->getMessage(); exit;
@@ -71,11 +76,12 @@ class CalculatorController extends Controller{
             {
                 $result = $result * $x;
             }
+	    return $result;
+            return view('calculator::result', compact('result'));
         }catch(\Exception $e){
             echo "<h1>Error</h1>";
             echo $e->getMessage(); exit;
-        }
-        return view('calculator::result', compact('result'));
+        }        
     }
 
 
