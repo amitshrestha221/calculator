@@ -1,14 +1,24 @@
 {
     "name": "amitshrestha/calculator",
     "description": "This package will initialize a calculator instace for your laravel application.",
-    "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "Amit Shrestha",
             "email": "amitshrestha221@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
-    "prefer-stable" : true,
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Amitshrestha\\Calculator\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Amitshrestha\\Calculator\\CalculatorServiceProvider"
+            ]
+        }
+    }
 }
