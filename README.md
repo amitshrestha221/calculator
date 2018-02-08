@@ -1,9 +1,9 @@
 # calculator
 *This repository contains my first package using Laravel 5.5. This repository contains basic calculator package.*
 
-_Installation:
+Installation:
     
-    "composer require amitshrestha/calculator:dev-master"
+    composer require amitshrestha/calculator:dev-master
     
     For Laravel 5.5 : Package is auto discovered.
     
