@@ -1,0 +1,13 @@
+{
+    "name": "amitshrestha/calculator",
+    "description": "This package will initialize a calculator instace for your laravel application.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Amit Shrestha",
+            "email": "amitshrestha221@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
