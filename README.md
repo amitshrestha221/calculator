@@ -5,7 +5,7 @@ _Installation: "amitshrestha/calculator:dev-master"**_
     
     For Laravel 5.5 : Package is auto discovered.
     
-    For Laravel 4.4 : 
+    For Laravel 5.4 or lower version : 
     
     Add this in $providers array of config/app.php
     "Amitshrestha\\Calculator\\CalculatorServiceProvider"
