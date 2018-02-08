@@ -8,6 +8,6 @@
             "email": "amitshrestha221@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {}
 }
