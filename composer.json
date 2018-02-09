@@ -1,6 +1,6 @@
 {
     "name": "amitshrestha/calculator",
-    "description": "This package will initialize a basic calculator instance for your laravel application.",
+    "description": "This package will initialize a calculator instance for your laravel application.",
     "license": "MIT",
     "authors": [
         {
