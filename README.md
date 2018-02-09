@@ -3,7 +3,7 @@
 
 Installation:
     
-    composer require amitshrestha/calculator:dev-master
+    composer require amitshrestha/calculator:1.02
     
     For Laravel 5.5 : Package is auto discovered.
     
